@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul .Link {
+  list-style: none;
+  padding: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+}

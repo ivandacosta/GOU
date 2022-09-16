@@ -1,0 +1,36 @@
+@font-face {
+  font-family: cabin;
+  src: url("../../../public/fonts/Cabin-VariableFont_wdth\,wght.ttf");
+}
+
+body {
+  font-family: cabin, Arial;
+}
+
+header {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #000;
+  margin-bottom: 50px;
+}
+
+header .Logo .Link {
+  color: #fff;
+}
+
+.Cart {
+  color: #fff;
+  font-size: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    flex-direction: row;
+  }
+
+  header .Cart {
+    /* margin: 25px 0; */
+  }
+}

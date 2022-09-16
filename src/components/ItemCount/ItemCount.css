@@ -1,0 +1,26 @@
+.ItemCount .ItemButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ItemCount .ItemButtons button {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.ItemCount .AddToCart button {
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}

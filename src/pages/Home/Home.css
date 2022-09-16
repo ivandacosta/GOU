@@ -1,0 +1,29 @@
+.contenedor {
+  margin: auto;
+  display: table;
+}
+
+.contenedor h1 {
+  position: relative;
+  float: left;
+  color: rgb(24, 24, 24);
+  font-size: 2.5em;
+}
+
+.contenedor h1 span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: #fff;
+  border-left: 1px solid #000;
+  animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}

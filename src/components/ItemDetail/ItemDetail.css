@@ -1,0 +1,26 @@
+.ContainerDescription {
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Description {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin-top: 50px;
+  border: 2px solid rgba(71, 71, 71, 0.644);
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(71, 71, 71, 0.644);
+}
+
+.MoreDetail {
+  margin: auto;
+}
+
+.ButtonMUI {
+  background-color: black !important;
+  margin-bottom: 10px !important;
+}
